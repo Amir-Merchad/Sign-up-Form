@@ -9,6 +9,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -286,6 +287,10 @@ form {
 .toggle-panel .btn:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
+}
+
+.footer a{
+    text-decoration: underline;
 }
 
 @media (max-width: 900px) {
